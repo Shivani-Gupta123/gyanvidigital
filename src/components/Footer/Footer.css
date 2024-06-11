@@ -1,0 +1,97 @@
+/* Footer.css */
+
+.footer {
+  padding: 30px;
+  background-color: #e09494;
+  color: #110505;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-column p {
+  align-items: center;
+}
+
+.footer-logo {
+  max-width: 100px;
+  margin-top: 10%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.footer h3 {
+  color: black;
+  text-shadow:1px 1px white ;
+  margin-bottom: 20px;
+}
+
+.footer ul, .contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li, .contact-list li {
+  margin-bottom: 15px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.phone-number {
+  display: flex;
+  align-items: center;
+}
+
+.phone-number svg,
+.contact-list svg {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    margin-top: 0;
+  }
+
+  .footer-column {
+    margin: 20px 0;
+  }
+}
+
+.footer::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 80%;
+  background-color: #555;
+  margin: 20px auto;
+}
+
+.footer .copyright {
+  text-align: center;
+  margin-top: 20px; 
+}
