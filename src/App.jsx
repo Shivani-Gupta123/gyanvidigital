@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import HappyClients from './components/HappyClients/HappyClients';
 import Consultation from './components/Consultation/Consultation';
+import Gallery from './components/Gallery/Gallery'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Carousel/>
       <About/>
+      <Gallery/>
       <Consultation/>
       <HappyClients/>
       <Footer/>
